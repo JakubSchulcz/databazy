@@ -1,0 +1,128 @@
+[
+    {
+        "_id": {
+            "$oid": "6665bd59281f7216b923824c"
+        },
+        "product_name": "Notebook",
+        "unit_price": "1000.00",
+        "units_in_stock": "50",
+        "categories": [
+            {
+                "category_name": "Electronics",
+                "category_desciption": "Electronic devices and accessories",
+                "subcategories": [
+                    {
+                        "subCategory_name": "Computers",
+                        "subCategory_description": "Laptops, desktops, and accessories"
+                    }
+                ]
+            }
+        ],
+        "suppliers": {
+            "company_name": "Tech Supplies s.r.o.",
+            "phone": "+421212345678",
+            "email": "info@techsupplies.sk",
+            "fax": "+421212345679"
+        },
+        "stocks": {
+            "quantity_available": "45",
+            "reorder_level": "10",
+            "reorder_quantity": "20",
+            "warehouse_location": "Bratislava"
+        },
+        "reviews": [
+            {
+                "customer_id": {
+                    "$oid": "6665b9da281f7216b923823e"
+                },
+                "rating": "4.5",
+                "review_text": "Excellent product quality and fast shipping.",
+                "review_date": "2024-06-01"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6665bd59281f7216b923824d"
+        },
+        "product_name": "Smartphone",
+        "unit_price": "800.00",
+        "units_in_stock": "30",
+        "categories": [
+            {
+                "category_name": "Electronics",
+                "category_desciption": "Electronic devices and accessories",
+                "subcategories": [
+                    {
+                        "subCategory_name": "Mobile Phones",
+                        "subCategory_description": "Smartphones and accessories"
+                    }
+                ]
+            }
+        ],
+        "suppliers": {
+            "company_name": "Mobile World s.r.o.",
+            "phone": "+421312345678",
+            "email": "contact@mobileworld.sk",
+            "fax": "+421312345679"
+        },
+        "stocks": {
+            "quantity_available": "25",
+            "reorder_level": "8",
+            "reorder_quantity": "15",
+            "warehouse_location": "Košice"
+        },
+        "reviews": [
+            {
+                "customer_id": {
+                    "$oid": "6665b9da281f7216b923823f"
+                },
+                "rating": "4.5",
+                "review_text": "Excellent product quality and fast shipping.",
+                "review_date": "2024-06-01"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6665bd59281f7216b923824e"
+        },
+        "product_name": "Printer",
+        "unit_price": "150.00",
+        "units_in_stock": "20",
+        "categories": [
+            {
+                "category_name": "Office Supplies",
+                "category_desciption": "Office equipment and supplies",
+                "subcategories": [
+                    {
+                        "subCategory_name": "Printers",
+                        "subCategory_description": "Printers and accessories"
+                    }
+                ]
+            }
+        ],
+        "suppliers": {
+            "company_name": "Office Equipments s.r.o.",
+            "phone": "+421412345678",
+            "email": "sales@officeequipments.sk",
+            "fax": "+421412345679"
+        },
+        "stocks": {
+            "quantity_available": "18",
+            "reorder_level": "5",
+            "reorder_quantity": "10",
+            "warehouse_location": "Prešov"
+        },
+        "reviews": [
+            {
+                "customer_id": {
+                    "$oid": "6665b9da281f7216b9238240"
+                },
+                "rating": "4.5",
+                "review_text": "Excellent product quality and fast shipping.",
+                "review_date": "2024-06-01"
+            }
+        ]
+    }
+]

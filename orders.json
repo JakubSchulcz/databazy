@@ -1,0 +1,56 @@
+[
+    {
+        "customer_id": {
+            "$oid": "6665b9da281f7216b923823e"
+        },
+        "segment": "Consumer",
+        "ship_mode": "Standard Class",
+        "order_date": "2024-05-20",
+        "ship_date": "2024-05-22",
+        "orderDetails": {
+            "product_id": {
+                "$oid": "6665bd59281f7216b923824c"
+            },
+            "quantity": "2",
+            "total": "200.00",
+            "discount": 10.00,
+            "profit": "30.00"
+        }
+    },
+    {
+        "customer_id": {
+            "$oid": "6665b9da281f7216b923823f"
+        },
+        "segment": "Corporate",
+        "ship_mode": "Second Class",
+        "order_date": "2024-05-18",
+        "ship_date": "2024-05-21",
+        "orderDetails": {
+            "product_id": {
+                "$oid": "6665bd59281f7216b923824d"
+            },
+            "quantity": "5",
+            "total": "500.00",
+            "discount": 5.00,
+            "profit": "75.00"
+        }
+    },
+    {
+        "customer_id": {
+            "$oid": "6665b9da281f7216b9238240"
+        },
+        "segment": "Home Office",
+        "ship_mode": "First Class",
+        "order_date": "2024-05-15",
+        "ship_date": "2024-05-18",
+        "orderDetails": {
+            "product_id": {
+                "$oid": "6665bd59281f7216b923824e"
+            },
+            "quantity": "1",
+            "total": "100.00",
+            "discount": 0.00,
+            "profit": "20.00"
+        }
+    }
+]

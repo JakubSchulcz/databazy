@@ -1,0 +1,65 @@
+[
+    {
+        "_id": {
+            "$oid": "6665b9da281f7216b923823e"
+        },
+        "first_name": "Ján",
+        "last_name": "Novák",
+        "age": "34",
+        "gender": "male",
+        "contact": {
+            "email": "jan.novak@example.com",
+            "phone": "+421912345678",
+            "fax": "+421912345679"
+        },
+        "address": {
+            "state_name": "Bratislavský",
+            "region_name": "Bratislava",
+            "street": "Hlavná 123",
+            "postal_code": "81101",
+            "city": "Bratislava"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6665b9da281f7216b923823f"
+        },
+        "first_name": "Mária",
+        "last_name": "Kováčová",
+        "age": "28",
+        "gender": "female",
+        "contact": {
+            "email": "maria.kovacova@example.com",
+            "phone": "+421987654321",
+            "fax": "+421987654322"
+        },
+        "address": {
+            "state_name": "Košický",
+            "region_name": "Košice",
+            "street": "Kvetná 456",
+            "postal_code": "04001",
+            "city": "Košice"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6665b9da281f7216b9238240"
+        },
+        "first_name": "Peter",
+        "last_name": "Horváth",
+        "age": "45",
+        "gender": "male",
+        "contact": {
+            "email": "peter.horvath@example.com",
+            "phone": "+421910112233",
+            "fax": "+421910112234"
+        },
+        "address": {
+            "state_name": "Prešovský",
+            "region_name": "Prešov",
+            "street": "Dlhá 789",
+            "postal_code": "08001",
+            "city": "Prešov"
+        }
+    }
+]
